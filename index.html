@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulaire</title>
+</head>
+<body>
+
+<h2>Formulaire simple</h2>
+
+<form action="page2.php" method="POST">
+  <label>Nom :</label><br>
+  <input type="text" name="nom"><br><br>
+
+  <label>Email :</label><br>
+  <input type="email" name="email"><br><br>
+
+  <button type="submit">Envoyer</button>
+</form>
+
+</body>
+<script>
+  let placesDejaVendues = 150 // number 
+  let placesRestantes = 50
+  let total = placesDejaVendues + placesRestantes
+
+  const nombre1 = 10
+  const nombre2 = 2
+  const total2 = nombre1 + nombre2
+
+  let monTitre = "Le titre de mon article"
+  let monContenu = 'Le contenu de mon article'
+  let conca = monTitre + monContenu
+
+  let monPersonnage = {
+      nom: "Wayne",
+      prenom: "Bruce",
+      age: 35,
+      couleurPreferee: "noir",
+      hobbies: "sortir la nuit"
+      }
+      monPersonnage.vehiculePrefere = "Batmobile"
+      const nomDeMonPersonnage = monPersonnage.nom
+
+
+
+
+  console.log(total2) 
+
+  console.log(conca) 
+
+  console.log(monPersonnage)
+
+  console.log(nomDeMonPersonnage)
+
+
+</script>
+</html>

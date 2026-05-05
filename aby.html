@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice JS</title>
+</head>
+<body>
+
+    <h1>Exercice : événement click</h1>
+
+    <button id="monBouton">Clique ici</button>
+
+    <p id="message"></p>
+
+    <script>
+        // 1. Sélectionner le bouton
+        let bouton = document.getElementById("monBouton")
+        
+
+        // 2. Ajouter un événement click
+        bouton.addEventListener("click" , function(){
+            // 3. Modifier le texte du paragraphe
+            let para =document.getElementById("message")
+            para.textContent="Bravo ! tu as cliqué sur le bouton"
+
+        })
+        
+
+        
+    </script>
+
+</body>
+</html>
